@@ -11,5 +11,14 @@ fun main(){
     val exponent= 2
     val BMI= weight * 703/Math.pow(height.toDouble(), exponent.toDouble())
 
-    print("BMI is $BMI")
+    println("BMI is $BMI")
+
+    when (BMI){
+        in 18.5..25.0 -> println("Optimal")
+    else -> if (BMI < 18.5)
+        println("Underweight")
+    else
+        print("Overweight")}
+
+
 }
