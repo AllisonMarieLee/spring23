@@ -13,7 +13,7 @@ fun main (){
         8 -> println("The Roman numeral version is: VIII")
         9 -> println("The Roman numeral version is: IX")
         10 -> println("The Roman numeral version is: X")
-        else -> println("The number is outside the range of 1 through 10.")
+        else -> println("Error! The number is outside the range of 1 through 10.")
     }
 
 
