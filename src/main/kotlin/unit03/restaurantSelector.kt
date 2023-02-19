@@ -1,19 +1,29 @@
-fun main(){
-    var vegetarian= "yes"
+fun main() {
+    var vegetarian = "no"
     println("Vegetarian? $vegetarian")
 
-    var vegan= "yes"
+    var vegan = "yes"
     println("Vegan? $vegan")
 
-    var glutenFree= "no"
+    var glutenFree = "yes"
     println("Gluten-Free? $glutenFree")
 
-    if (vegetarian=="yes")
-        if (vegan=="yes")
+    if (vegetarian == "yes"){
+        if (vegan == "yes")
+            if (glutenFree == "yes" || glutenFree == "no")
+                println("Corner Cafe, Chef's Kitchen")
+        if (vegan=="no")
             if (glutenFree=="yes")
-                println("Corner Cafe, Chef's Kitchen")
+                println("Main Street Pizza Company, Corner Cafe, The Chef's Kitchen")
             else
-                println("Corner Cafe, Chef's Kitchen")
-        else
-            else (glutenFree=="yes")
-}               println("Main Street, Corner Cafe, Chef's Kitchen")
+                println("Main Street Pizza Company, Corner Cafe, Mama's Fine Italian, The Chef's Kitchen")}
+    if (vegetarian == "no"){
+        if (vegan == "yes")
+            if (glutenFree=="yes" || glutenFree=="no")
+                println("Corner Cafe, The Chef's Kitchen")
+        if (vegan=="no")
+            if (glutenFree=="yes")
+                println("Main Street Pizza Company, Corner Cafe, The Chef's Kitchen")
+            else if (glutenFree=="no")
+                println("Joe's Gourmet Burgers, Main Street Pizza Company, Corner Cafe, Mama's Fine Italian, The Chef's Kitchen")}
+}
