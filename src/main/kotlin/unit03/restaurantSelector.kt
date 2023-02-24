@@ -1,8 +1,8 @@
 fun main() {
-    var vegetarian = "no"
+    var vegetarian = "yes"
     println("Vegetarian? $vegetarian")
 
-    var vegan = "yes"
+    var vegan = "no"
     println("Vegan? $vegan")
 
     var glutenFree = "yes"
