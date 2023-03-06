@@ -8,7 +8,6 @@
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/unit04/barChart.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/unit04/guessingGame.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/unit04/guessingGamePlus.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/unit04/letterCounter.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/unit04/population.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/unit04/sumNumbers.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -42,7 +41,7 @@
       <recent name="C:\Users\Alli\IdeaProjects\spring23\src\main\kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.LetterCounterKt">
+  <component name="RunManager" selected="Kotlin.GuessingGameKt">
     <configuration name="GuessingGameKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GuessingGameKt" />
       <module name="spring23" />
@@ -57,15 +56,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+    <configuration name="NameSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NameSortKt" />
       <module name="spring23" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NameSortKt" />
+    <configuration name="PopulationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PopulationKt" />
       <module name="spring23" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,11 +79,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.LetterCounterKt" />
         <item itemvalue="Kotlin.GuessingGameKt" />
-        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.SumNumbersKt" />
+        <item itemvalue="Kotlin.PopulationKt" />
         <item itemvalue="Kotlin.NameSortKt" />
+        <item itemvalue="Kotlin.LetterCounterKt" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +201,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677438799415</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Created a new project">
+      <created>1678076870244</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678076870244</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Created a new project">
+      <created>1678076929523</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678076929523</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
