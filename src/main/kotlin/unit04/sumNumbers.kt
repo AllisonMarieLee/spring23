@@ -1,11 +1,5 @@
 fun main(){
-    // Write a program that asks the user for a positive nonzero integer value.
-    // The program should use a loop to get the sum of all the integers from 1 up to the number entered.
-    // For example, if the user enters 50, the loop will find the sum of 1, 2, 3, 4, . . . 50.
-//    var userInput= 5
     var sum=0
-//    println("Enter a positive nonzero integer value $num")
-
 
     var userInput: Int? = null
     while (userInput == null) {
@@ -21,10 +15,6 @@ fun main(){
             println("Invalid input. Please enter a positive integer.")
         }
     }
-    println("You entered $userInput.")
-
-
-
 
     for (i in 1..userInput) {
     sum+= i
