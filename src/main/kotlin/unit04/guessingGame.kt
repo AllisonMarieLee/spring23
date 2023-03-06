@@ -1,4 +1,3 @@
-//stuck on this one for now- the else statement will not print
 fun main() {
 
     //Set range for random number
