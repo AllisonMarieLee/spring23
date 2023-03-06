@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98326cc4-3d12-45f3-8de8-d496d5c8797f" name="Changes" comment="Created a new project">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/unit04/barChart.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/unit04/guessingGame.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/unit04/guessingGamePlus.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/unit04/letterCounter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/unit04/population.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/unit04/sumNumbers.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/unit03/nameSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/unit03/nameSort.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,16 +37,28 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.NameSortKt">
-    <configuration name="BankChargesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BankChargesKt" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alli\IdeaProjects\spring23\src\main\kotlin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.LetterCounterKt">
+    <configuration name="GuessingGameKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GuessingGameKt" />
       <module name="spring23" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MassWeightKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MassWeightKt" />
+    <configuration name="LetterCounterKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LetterCounterKt" />
+      <module name="spring23" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="spring23" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -54,15 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestaurantSelectorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RestaurantSelectorKt" />
-      <module name="spring23" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunRaceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RunRaceKt" />
+    <configuration name="SumNumbersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumNumbersKt" />
       <module name="spring23" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,11 +80,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LetterCounterKt" />
+        <item itemvalue="Kotlin.GuessingGameKt" />
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.SumNumbersKt" />
         <item itemvalue="Kotlin.NameSortKt" />
-        <item itemvalue="Kotlin.RestaurantSelectorKt" />
-        <item itemvalue="Kotlin.BankChargesKt" />
-        <item itemvalue="Kotlin.RunRaceKt" />
-        <item itemvalue="Kotlin.MassWeightKt" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677268198715</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Created a new project">
+      <created>1677438799415</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677438799415</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
