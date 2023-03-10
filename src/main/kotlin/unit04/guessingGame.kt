@@ -5,7 +5,7 @@ fun main() {
     val max = 10
     val randomNumber = (Math.random() * (max - min + 1)).toInt() + min
     var guess: Int? = null
-    println("Actual: $randomNumber")
+//    println("Actual: $randomNumber")
 
     while (guess == null) {
         print("Enter a positive integer between $min and $max: ")
