@@ -1,20 +1,22 @@
+import kotlin.math.sqrt
 
 fun isNumberDivisible(number: Int, divisor: Int): Boolean {
-    return number % divisor == 0     //modulo operator % makes sure there is no remainder
+    return number % divisor == 0  //modulo operator % makes sure there is no remainder
 }
-
-fun isPrime(number: Int): Boolean{
-    if (number < 2){
+//loop for sqrt of number
+fun isPrime(number: Int): Boolean {
+    if (number < 2) {
         return false
     }
-
-    for (divisor in 2..Math.sqrt(number.toDouble()).toInt()){
-        if (isNumberDivisible (number, divisor)){
-            return false
-        }
+    var i = 2  //counter variable
+    val sqrtNumber = sqrt(number.toDouble()).toInt()  //calculates the square root of number
+    while (i <= sqrtNumber) {
+        if (isNumberDivisible(number, i)){
+        return false
     }
-    return true //means the number is prime
-
+    i++
+    }
+    return true
 }
 
 fun main (){
