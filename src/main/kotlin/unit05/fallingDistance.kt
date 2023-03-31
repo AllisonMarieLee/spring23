@@ -1,4 +1,5 @@
 fun main(){
+    //loop from 1-10
     var time = 1.0
     while (time <= 10.0) {
         val distance = fallingDistance(time.toDouble())
