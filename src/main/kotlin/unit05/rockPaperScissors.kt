@@ -3,13 +3,14 @@ fun main() {
     var playAgain = true
     while (playAgain) {
         //calls on the Game Rules Function to print
-        val gameRules = printGameRules()                       //********this function working fine
+        val gameRules = printGameRules()
         println(gameRules)
 
+        //loop
         var result: String
         do {
-            val userDecision = getPlayerAnswer()                      //this line is good
-            val cpu = cpuAnswer()                      //this line is good
+            val userDecision = getPlayerAnswer()
+            val cpu = cpuAnswer()
             println("CPU answer was $cpu")
 
             result = determineGameResult(userDecision, cpu)
@@ -25,8 +26,8 @@ fun main() {
 }
 
 
-    //Game Rules Function
-fun printGameRules(): String {                              //********this function working fine
+//prints the game rules
+fun printGameRules(): String {
     val gameRules = "Rules of the game: \n" + "Rock=1\n" + "Paper=2\n" + "Scissors=3\n" + "-------------------"
     return gameRules
 }
@@ -42,13 +43,14 @@ fun getPlayerAnswer(): Int {
     return userDecision
 }
 
-    //Generate a random answer for the CPU (computer opponent) and return the value as an integer
+//Generate a random answer for the CPU (computer opponent) and return the value as an integer
 fun cpuAnswer(): Int {
     //if randomNumber is 1=ROCK, 2=PAPER, 3=SCISSOR
     val randomNumber = Random.nextInt(1, 4)
     return randomNumber
 }
 
+//determine the logic for result
 fun determineGameResult(getPlayerAnswer: Int, cpuAnswer: Int): String {
     return when {
         (getPlayerAnswer == 1 && cpuAnswer == 3) || (getPlayerAnswer == 2 && cpuAnswer == 1) || (getPlayerAnswer == 3 && cpuAnswer == 2) -> {
