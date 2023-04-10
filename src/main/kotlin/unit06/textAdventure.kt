@@ -19,7 +19,7 @@ fun main(){
         println("What is your next move (n: North, e: East, s: South, w: West)? ")
         val userInput = readlnOrNull()    //accept user input
         val direction = userInput?.toLowerCase()    //convert user input to lowercase
-        var nextRoom: Int? = null
+        var nextRoom: Int = -1
 
         when (direction) {
             "n" -> {
@@ -42,8 +42,8 @@ fun main(){
             }
         }
 
-        if (nextRoom == null) {
-            println("Error: You cannot go that way.")
+        if (nextRoom == -1) {
+            println("You cannot go that way.")
         } else {
             currentRoom = rooms[nextRoom]
         }
