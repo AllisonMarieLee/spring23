@@ -1,6 +1,7 @@
 fun main(){
 /*  array order: (room description, north, east, south, west)
-    value of -1 used for no exit  */
+used value of -1 for no exit
+index number commented on right side for easier viewing */
     val rooms = arrayOf(
         arrayOf("You are in Bedroom #2. Exits are north and east.", "3", "1", "-1", "-1"),  //[0]
         arrayOf("You are in the South Hall. Exits are north, east, and west.", "4", "2", "-1", "0"),  //[1]
@@ -12,7 +13,7 @@ fun main(){
     )
 
     var currentRoom = rooms[0]   //initialize starting room
-    var done = false             //set flag(done) to false
+    var done = false   //set flag(done) to false
 
     while (done == false){
         println(currentRoom[0])    //display current room description
@@ -21,6 +22,7 @@ fun main(){
         val direction = userInput?.toLowerCase()    //convert user input to lowercase
         var nextRoom: Int = -1
 
+        //if input is n,e,s,w then find next room in corresponding direction from current room
         when (direction) {
             "n" -> {
                 nextRoom = currentRoom[1].toInt()
@@ -31,17 +33,17 @@ fun main(){
             } "w" -> {
                 nextRoom = currentRoom[4].toInt()
             } else -> {
-                println("Invalid. Input was not n, e, s, or w.")
+                println("Invalid. Input was not n, e, s, or w.")   //if input is not n,e,s,w then display error msg
             }
         }
 
-        if (nextRoom == -1) {
+        if (nextRoom == -1) {   //error msg if invalid direction
             println("You cannot go that way.")
         } else {
             currentRoom = rooms[nextRoom]
         }
 
-        if (nextRoom == 2){
+        if (nextRoom == 2){   //end game when user reaches dining room
             println("You reached the Dining Room! End of Game.")
             done = true
         }
