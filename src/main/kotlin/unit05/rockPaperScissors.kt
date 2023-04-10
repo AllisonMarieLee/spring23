@@ -17,6 +17,7 @@ fun main() {
             println(result)
         } while (result == "Tie")
 
+        println(result)
         if (result != "Tie") {
             print("Do you want to play again? (y/n): ")
             val decision = readLine()!!.toLowerCase()
@@ -60,7 +61,7 @@ fun determineGameResult(getPlayerAnswer: Int, cpuAnswer: Int): String {
             "You Lose! \n"
         }
         (getPlayerAnswer == cpuAnswer) -> {
-            "Tie! \n"
+            "Tie"
         }
         else -> {
             "Invalid \n"
