@@ -24,20 +24,13 @@ fun main(){
         when (direction) {
             "n" -> {
                 nextRoom = currentRoom[1].toInt()
-            }
-            "e" -> {
+            } "e" -> {
                 nextRoom = currentRoom[2].toInt()
-            }
-            "s" -> {
-//                if (currentRoom != "-1"){
+            } "s" -> {
                 nextRoom = currentRoom[3].toInt()
-//            } else -> {
-//                println("You cannot go that way.")
-                }
-            "w" -> {
+            } "w" -> {
                 nextRoom = currentRoom[4].toInt()
-            }
-            else -> {
+            } else -> {
                 println("Invalid. Input was not n, e, s, or w.")
             }
         }
